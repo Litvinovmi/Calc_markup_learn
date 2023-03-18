@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+
+}
+button {
+  font-size: 1.2rem;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(29, 28, 28);
+}
+
+.calc__btn {
+  font-size: 32px;
+  padding: 0.3em;
+  border-radius: 12px;
+}
+.calc__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 250px;
+  
+}
